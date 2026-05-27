@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodExpress</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #ff5722;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: white;
+        }
+
+        .hero h1 {
+            color: #ff5722;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        button {
+            background: #ff5722;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>FoodExpress</h1>
+    <p>Fresh Food Delivered Fast</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Offers</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Order Your Favorite Meals</h1>
+    <p>Hot, tasty, and delivered right to your doorstep.</p>
+    <button>Order Now</button>
+</section>
+
+<section class="menu">
+    <div class="card">
+        <img src="https://picsum.photos/250/180?random=1" alt="Burger">
+        <h3>Classic Burger</h3>
+        <p>₹199</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/250/180?random=2" alt="Pizza">
+        <h3>Cheese Pizza</h3>
+        <p>₹299</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/250/180?random=3" alt="Biryani">
+        <h3>Chicken Biryani</h3>
+        <p>₹249</p>
+        <button>Add to Cart</button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 FoodExpress | Jenkins CI/CD Demo</p>
+</footer>
+
+</body>
+</html>
