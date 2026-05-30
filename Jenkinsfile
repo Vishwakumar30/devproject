@@ -4,7 +4,7 @@ pipeline {
     environment {
         AWS_DEFAULT_REGION = 'us-east-1'
         S3_BUCKET = 'boom4737'
-        CLOUDFRONT_DISTRIBUTION_ID = 'dx4t78vv0sife.cloudfront.net' // Replace with your actual Distribution ID
+        CLOUDFRONT_DISTRIBUTION_ID = 'E2DXP0C8QRPRZ' // Replace with your actual Distribution ID
     }
 
     stages {
